@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Resume Blog Page</title>
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.header {
+    color: darkslategrey;
+    padding: 5px;
+    font-size: 25px;
+    text-align:justify;
+    background-color: white;
+}
+
+.leftcolumn {
+    color: white;
+    float: left;
+    width: 25%;
+    padding-right: 20px;
+}
+
+.rightcolumn {
+    float: left;
+    width: 75%;
+}
+
+.circular-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.leftcolumn .card {
+    background-color: darkslategrey;
+    margin-top: 0px;
+    margin-bottom: 0;
+    border-bottom: 1px solid white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: darkslategrey;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .leftcolumn, .rightcolumn {
+        width: 100px;
+        padding: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <table>
+        <tr>
+            <td style="width: 25%;">
+              <img class="circular-image" src="https://i.pinimg.com/736x/bf/db/6a/bfdb6ac95df2f238af114428839523d5.jpg" alt="My picture">
+            </td>
+            <td style="width: 75%; text-align: left;">
+              <h2>MA. MARGARET AGCANG</h2>
+              <p>Information System</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2><strong>Contact Details</strong></h2>
+            <a href="mailto:mamargaretagcang20@gmail.com" title= "Email Adress" style="color: white;">mamargaretagcang20@gmail.com</a>
+            <p title= "Mobile Number">(+69) 956-725-3886</p>
+            <p title= "Address">Brgy. Don Bosco Better Living Subdivision Parañaque City</p>
+        </div>
+        <div class="card">
+            <h2><strong>Skills</strong></h2>
+            <ul>
+                <li>
+                    <strong>Technical Skills</strong>
+                    <ul>
+                        <li>Programming Languages: C#, C++, Python</li>
+                        <li>Operating Systems: Windows</li>
+                        <li>Tools: CodeBlocks, Cisco Packet Tracer, Figma, Visual Studio Code</li>
+                    </ul>
+                </li>
+                <li>Basic Knowledge in HTML and Web/App Development</li>
+                <li>Basic Knowledge in Accounting</li>
+                <li>Teamwork Skills</li>
+                <li>Editing Skills</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2><strong>Hobbies</strong></h2>
+            <ul>
+                <li>Sketching</li>
+                <li>Designing</li>
+                <li>Reading</li>
+                <li>Cooking</li>
+                <li>Gaming</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2><strong>Languages</strong></h2>
+            <ul>
+            <li>Tagalog</li>
+            <li>English</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>Profile</h2>
+            <p>Hello! I am Ma. Margaret Agcang, a college student majoring in Information System at Technological University of the Philippines-Manila. I'm an aspiring Information System student who
+            focused on data analysis, business process optimization, and systems implementation to improve organizational efficiency. I'm eager to apply knowledge and skills to gain practical experience and contribute to an organization’s success.</p>
+        </div>
+        <div class="card">
+            <h2>Educational Background</h2>
+            <ul>
+              <li>
+                <h3>Primary</h3>
+                <ul>
+                  <li>
+                    <strong>Upper Bicutan Elementary School</strong><br>
+                    A.Y 2010 - 2016<br>
+                    Taguig City
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3>Secondary</h3>
+                <ul>
+                  <li>
+                    <strong>Don Bosco National High School</strong><br>
+                    A.Y 2016 - 2020<br>
+                    Parañaque City<br><br>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <strong>Parañaque National High School - Main</strong><br>
+                    Science, Mathematics, Engineering, and Mathematics (STEM) Strand<br>
+                    A.Y 2020 - 2022<br>
+                    Parañaque City
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3>Tertiary</h3>
+                <ul>
+                  <li>
+                    <strong>Technological University of the Philippines</strong><br>
+                    Bachelor of Information System<br>
+                    A.Y 2022 - Present<br>
+                    Manila City
+                  </li>
+                </ul>
+              </li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>Training and Seminar</h2>
+            <ul>
+              <li>The Future of Computing: An Exploration of Cloud Computing, Cloud Migration, and Growth of IoT Networks</li>
+              <li>Computer Hardware Service</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>© 2024 | Developed by Margaret Agcang</p>
+</div>
+</body>
+</html>
